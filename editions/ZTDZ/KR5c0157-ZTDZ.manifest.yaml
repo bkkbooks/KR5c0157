@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0157/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0157/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上老君元道真經註解
+  date: '2015-08-29 00:48:43.801317'
+  source:
+    repository: kanripo
+    path: KR5c0157
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0157_000-ZTDZ.yaml, hash: 'sha256:0ab53803888e250cc06cf9a2bfa3871f31795f714ffa40e3af40429f2d1c6204'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0157_000-ZTDZ.markers.yaml, hash: 'sha256:4813f38abccf021602cbf1291eed5bea3f8d84b895d4cdac4259c87d589a5119'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0157_SJB_000-170204b
+    span:
+    - body
+    - 0
+    - 4406
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:cadd8220d9758cdc38a3b7bfc8cccee0f18d049d5ad5ed34e52e20eb8c342f50
